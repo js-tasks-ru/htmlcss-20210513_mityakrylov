@@ -1,0 +1,30 @@
+header {
+    background-color: #666547;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav {
+    background-color: #6fcb9f;
+    padding: 5px;
+}
+
+nav a {
+    border-bottom: 1px solid;
+}
+
+main {
+    background-color: #fffeb3;
+    padding: 10px;
+}
+
+article {
+    background-color: #ffe28a;
+}
+
+footer {
+    background-color: #666547;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 26px;
+}
