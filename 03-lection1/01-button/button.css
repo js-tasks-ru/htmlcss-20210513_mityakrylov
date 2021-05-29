@@ -1,19 +1,14 @@
 /* Стилизация кнопки */
-button {
-    display: block;
-    margin: 20px;
-
-    width: 189px;
-    height: 48px;
-}
-
 .button {
     color: var(--white);
+
+    height: 48px;
+    min-width: 189px;
 
     border-width: 0;
     border-radius: 8px;
 
-    padding: 0;
+    padding: 10px 20px;
 
     font-style: normal;
     font-weight: 500;
@@ -22,20 +17,22 @@ button {
     text-align: center;
 }
 
-.button:hover:enabled {
+.button:hover {
     cursor: pointer;
     transition: background 400ms ease-in-out, border 400ms ease-in-out;
 }
 
-.button:disabled {
+.button[disabled] {
     opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .button_primary {
     background: var(--primary);
 }
 
-.button_primary:hover:enabled {
+.button_primary:hover {
     background: #2342C0;
 }
 
@@ -43,7 +40,7 @@ button {
     background: var(--secondary);
 }
 
-.button_secondary:hover:enabled {
+.button_secondary:hover {
     background: #5028C6;
 }
 
