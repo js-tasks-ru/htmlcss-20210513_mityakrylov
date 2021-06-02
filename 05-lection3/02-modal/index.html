@@ -3,10 +3,30 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
         <link rel="stylesheet" href="./modal.css">
         <title>Modal</title>
     </head>
     <body>
+        <button id='modal-open' class='button button_primary'>Open modal</button>
+        <div class='modal' id='modal'>
+            <div class='modal_content'>
+                <svg id='modal-close' class='modal_close' viewBox='0 0 24 24'>
+                    <use xlink:href='../../assets/images/sprites.svg#x' />
+                </svg>
+                <div class='modal_title'>
+                    Modal title
+                </div>
+                <div class='modal_text'>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+        </div>
     </body>
     <script src="./index.js"></script> 
 </html>
