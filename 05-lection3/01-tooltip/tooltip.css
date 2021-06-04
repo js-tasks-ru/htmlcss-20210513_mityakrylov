@@ -1,12 +1,3 @@
-body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 200px;
-}
-
 .tooltip {
     position: relative;
 }
@@ -22,7 +13,7 @@ body {
 .tooltip__help {
     display: none;
 
-    background: #4263EB;
+    background: var(--blue);
 
     width: 129px;
 
@@ -41,7 +32,7 @@ body {
 .tooltip__help:before {
     content: "";
     border: 7px solid transparent;
-    border-bottom: 7px solid #4263EB;
+    border-bottom: 7px solid var(--blue);
     position: absolute;
     left: 50%;
     transform: translate(-50%, -100%);
